@@ -45,14 +45,14 @@ Users can upload crop leaf images and the system predicts diseases with confiden
 ## 📸 Screenshots
 
 ### Home Page
-🏠 [Home](home.png)
+🏠 [Home](screenshots/home.png)
 
 ### Disease Detection Result
-📊 [Result](result.png)
+📊 [Result](screenshots/result.png)
 
 ### Ask Question Feature
-❓ [Ask](ask.png)<br>
-🔍 [Ask1](ask1.png)
+❓ [Ask](screenshots/ask.png)<br>
+🔍 [Ask1](screenshots/ask1.png)
 
 ---
 
