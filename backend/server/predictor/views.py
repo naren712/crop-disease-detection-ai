@@ -9,6 +9,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 import requests
 import os
+from django.conf import settings
 import re
 import fitz  # PyMuPDF
 
@@ -106,7 +107,7 @@ def ask_question(request):
 
 
 #gemini api
-GEMINI_API_KEY = "your key"
+GEMINI_API_KEY = settings.GEMINI_API_KEY
 def generate_ai_answer(question, pdf_text):
 
     question_lower = question.lower()
